@@ -444,7 +444,7 @@ class History {
   constructor() {
     this.data = [];
     this.index = 0;
-    this.historyStorage = 10;
+    this.historyStorage = 30;
   }
 
   insertHistory(val) {
