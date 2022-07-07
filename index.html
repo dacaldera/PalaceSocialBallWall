@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <!-- <script src="https://unpkg.com/p5.js-svg@1.3.1"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <!-- <script src="../p5/p5.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <script src="designCatalog.js"></script>
+  <div><h1>Palace Social Ball Wall Designer</h1><h3>Web App</h3></div>
+  <div id="applet"><script src="sketch.js"></script></div>
+  
+  <div>
+    <button id="saveButton" type="button" onclick="saveDesign()">Save Design</button>
+    <p>Saves the design keyCode to your computer as a .txt file</p>
+  </div>
+  <div id="textInput"><textarea placeholder="Paste a design keyCode here and click the 'Load Design' button below to recall a design"></textarea></div>
+  <div>
+    <button id="loadButton" type="button" onclick="loadDesign()">Load Design</button>
+  </div>
+  <div><p>To add a design to the Design Catalog, please email the keyCode to the admin (Daniel Calderon)</p></div>
+
+</body>
+
+
+</html>
